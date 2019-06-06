@@ -122,7 +122,7 @@ yum update nss -y
 
 <details>
   <summary>Check out discussions</summary>
-  
+
 - [#290](https://github.com/GoogleChrome/puppeteer/issues/290) - Debian troubleshooting <br/>
 - [#391](https://github.com/GoogleChrome/puppeteer/issues/391) - CentOS troubleshooting <br/>
 - [#379](https://github.com/GoogleChrome/puppeteer/issues/379) - Alpine troubleshooting <br/>
@@ -163,7 +163,7 @@ done only once per host environment:
 
 ```bash
 # cd to the downloaded instance
-cd <project-dir-path>/node_modules/puppeteer/.local-chromium/linux-<revision>/chrome-linux/
+cd <project-dir-path>/node_modules/puppeteer/local-chromium/linux-<revision>/chrome-linux/
 sudo chown root:root chrome_sandbox
 sudo chmod 4755 chrome_sandbox
 # copy sandbox executable to a shared location

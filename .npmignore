@@ -8,7 +8,7 @@ utils/node6-transform
 
 # repeats from .gitignore
 node_modules
-.local-chromium
+local-chromium
 .dev_profile*
 .DS_Store
 *.swp

@@ -444,7 +444,7 @@ This methods attaches Puppeteer to an existing Chromium instance.
 #### puppeteer.createBrowserFetcher([options])
 - `options` <[Object]>
   - `host` <[string]> A download host to be used. Defaults to `https://storage.googleapis.com`.
-  - `path` <[string]> A path for the downloads folder. Defaults to `<root>/.local-chromium`, where `<root>` is puppeteer's package root.
+  - `path` <[string]> A path for the downloads folder. Defaults to `<root>/local-chromium`, where `<root>` is puppeteer's package root.
   - `platform` <[string]> Possible values are: `mac`, `win32`, `win64`, `linux`. Defaults to the current platform.
 - returns: <[BrowserFetcher]>
 

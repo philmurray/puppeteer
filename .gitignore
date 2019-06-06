@@ -2,7 +2,7 @@
 /test/output-chromium
 /test/output-firefox
 /test/test-user-data-dir*
-/.local-chromium/
+/local-chromium/
 /.dev_profile*
 .DS_Store
 *.swp

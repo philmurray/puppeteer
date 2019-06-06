@@ -8,7 +8,7 @@ utils/node6-transform
 
 # repeats from .gitignore
 node_modules
-.local-chromium
+local-chromium
 .local-browser
 .dev_profile*
 .DS_Store
@@ -34,4 +34,3 @@ yarn.lock
 .travis.yml
 README.md
 tsconfig.json
-
